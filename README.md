@@ -59,7 +59,51 @@ OS: linux x64
 
 ### Angular Architechture
 
+The core architecture of Angular includes the following key parts:
+
++ **Modules**: Modules group related components and services to organize Angular applications into functional areas.
++ **Components**: Components control a view and its logic, forming the building blocks of an Angular application.
++ **Templates**: Templates define the HTML structure and behavior of a component using Angular's template syntax.
++ **Metadata**: Metadata provides extra information to Angular classes, guiding how they should be processed.
++ **Data Binding**: Data binding connects the component's data with the view, allowing interaction and dynamic updates.
++ **Directives**: Directives modify the DOM by altering element behavior or structure.
++ **Services**: Services encapsulate reusable logic or data operations and can be shared across components.
++ **Dependency Injection**: Dependency Injection allows services and objects to be efficiently shared and managed in an Angular application.
+
 ### Directory Structure
+
+A typical Angular project is as follows:
+
+```bash
+my-angular-project/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── services/
+│   │   ├── models/
+│   │   ├── app.module.ts
+│   │   └── app.component.ts
+│   ├── assets/
+│   ├── environments/
+│   ├── index.html
+│   └── main.ts
+├── node_modules/
+├── angular.json
+├── package.json
+└── tsconfig.json
+```
+
++ `src/`: Contains the source code of the application.
+  + `app/`: Main application code.
+    + `components/`: Stores the various components.
+    + `services/`: Stores service files.
+    + `models/`: Stores data models.
+  + `assets/`: Stores static assets (images, fonts, etc.).
+  + `environments/`: Stores configuration files for different environments.
++ `node_modules/`: Stores project dependencies.
++ `angular.json`: Angular workspace configuration file.
++ `package.json`: npm package management configuration file.
++ `tsconfig.json`: TypeScript compiler configuration file.
 
 ## Routing
 
