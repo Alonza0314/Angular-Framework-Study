@@ -97,10 +97,10 @@ An-angular-project/
 + `src/`: Contains the actual source code of the application.
   + `app/`: Main application code.
     + `app.component.css (or .scss)`: The stylesheet for the root component.
-      + `.css` files contain standard CSS syntax. 
+      + `.css` files contain standard CSS syntax.
       + `.scss` files use SASS syntax, offering advanced features like variables, nesting, and mixins.
-    + `app.component.html`: The HTML template file for the root component of the application. It defines the structure and layout of the main app component. 
-    + `app.component.spec.ts`: The unit test file for the root component, used to write and run automated tests for the component, ensuring its functionality works as expected. 
+    + `app.component.html`: The HTML template file for the root component of the application. It defines the structure and layout of the main app component.
+    + `app.component.spec.ts`: The unit test file for the root component, used to write and run automated tests for the component, ensuring its functionality works as expected.
     + `app.component.ts`: TypeScript file defines the logic for the root component. It contains the component class, decorators, and any methods or properties used by the component.
     + `app.module.ts`: The root module of the Angular application. It's responsible for bootstrapping the application and declaring which components, services, and modules are part of the app.
   + `assets/`: Stores the static assets (images, texts, fonts, etc.).
@@ -210,7 +210,7 @@ Thr routing system is built upon the following key concepts:
 
 ### Demonstration
 
-Click the link and move to the directory: [my-project](/my-project/README.md)
+Click the link and move to the directory: [my-project](/my-project/README.md) / [todo-list](/todo-list/README.md)
 
 ## Reference
 
