@@ -216,4 +216,6 @@ Click the link and move to the directory: [my-project](/my-project/README.md)
 
 [Angular Official Website](https://angular.dev/)
 
+[Angular Tutorial for Beginners: Learn Angular & TypeScript](https://www.youtube.com/watch?v=k5E2AVpwsko/)
+
 [ChatGPT](https://openai.com/chatgpt/)
