@@ -118,6 +118,29 @@ Thr routing system is built upon the following key concepts:
 + **RouterLink Directive**: This is used to create navigation links in the template. It binds to a specified route path, and when clicked, triggers navigation to the associated route.
 + **RouterOutlet**: This is a placeholder directive that defines where the view components will be loaded. Based on the active route, Angular displays the corresponding component in this location.
 
+## Basic Usage
+
++ **Create a Component**:
+
+    ```bash
+    ng generate component my-component
+    ```
+
++ **Create a Service**:
+
+    ```bash
+    ng generate service my-service
+    ```
+
++ **Data Binding**:
+  + **Interpolation**: `{{ variable }}`
+  + **Property Binding**: `[property]="value"`
+  + **Event Binding**: `(event)="handler()"`
+  + **Two-Way Binding**: `[(ngModel)]="property"`
++ **Using Directives**:
+  + **Structural Directives**: `*ngIf`, `*ngFor`
+  + **Attribute Directives**: `ngClass`, `ngStyle`
+
 ## Simple Demonstration
 
 ## Reference
