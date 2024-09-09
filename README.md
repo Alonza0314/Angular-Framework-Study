@@ -73,16 +73,19 @@ The core architecture of Angular includes the following key parts:
 A typical Angular project is as follows:
 
 ```bash
-my-angular-project/
+An-angular-project/
 ├── src/
 │   ├── app/
-│   │   ├── components/
-│   │   ├── services/
-│   │   ├── models/
-│   │   ├── app.module.ts
-│   │   └── app.component.ts
+│   │   ├── app.component.css (or .scss)
+│   │   ├── app.component.html
+│   │   ├── app.component.spec.ts
+│   │   ├── app.component.ts
+│   │   └── app.module.ts
 │   ├── assets/
 │   ├── environments/
+│   │   ├── environment.node.ts
+│   │   └── environment.ts
+│   ├── favicon.ico
 │   ├── index.html
 │   └── main.ts
 ├── node_modules/
@@ -91,15 +94,24 @@ my-angular-project/
 └── tsconfig.json
 ```
 
-+ `src/`: Contains the source code of the application.
++ `src/`: Contains the actual source code of the application.
   + `app/`: Main application code.
-    + `components/`: Stores the various components.
-    + `services/`: Stores service files.
-    + `models/`: Stores data models.
-  + `assets/`: Stores static assets (images, fonts, etc.).
-  + `environments/`: Stores configuration files for different environments.
-+ `node_modules/`: Stores project dependencies.
-+ `angular.json`: Angular workspace configuration file.
+    + `app.component.css (or .scss)`: The stylesheet for the root component.
+      + `.css` files contain standard CSS syntax. 
+      + `.scss` files use SASS syntax, offering advanced features like variables, nesting, and mixins.
+    + `app.component.html`: The HTML template file for the root component of the application. It defines the structure and layout of the main app component. 
+    + `app.component.spec.ts`: The unit test file for the root component, used to write and run automated tests for the component, ensuring its functionality works as expected. 
+    + `app.component.ts`: TypeScript file defines the logic for the root component. It contains the component class, decorators, and any methods or properties used by the component.
+    + `app.module.ts`: The root module of the Angular application. It's responsible for bootstrapping the application and declaring which components, services, and modules are part of the app.
+  + `assets/`: Stores the static assets (images, texts, fonts, etc.).
+  + `environments/`: Stores configuration settings for different environments.
+    + `environment.node.ts`: For the production environment.
+    + `environment.ts`: For the development environment.
+  + `favicon.ico`: The icon that appears in the browser tab.
+  + `index.html`: The main HTML file that serves as the entry point for the application.
+  + `main.ts`: The main entry point for the application, where the application is bootstrapped. Everthing starts from here.
++ `node_modules/`: Stores all the 3rd-party libraries that the application depends on. When we compile the application, parts of the 3rd-party libraries are put in the bundle and deployed with the application.
++ `angular.json`: Angular workspace configuration file. It contains the configuration settings for the Angular CLI.
 + `package.json`: npm package management configuration file.
 + `tsconfig.json`: TypeScript compiler configuration file.
 
@@ -203,5 +215,7 @@ Click the link and move to the directory: [my-project](/my-project/README.md)
 ## Reference
 
 [Angular Official Website](https://angular.dev/)
+
+[Angular Tutorial for Beginners: Learn Angular & TypeScript](https://www.youtube.com/watch?v=k5E2AVpwsko/)
 
 [ChatGPT](https://openai.com/chatgpt/)
