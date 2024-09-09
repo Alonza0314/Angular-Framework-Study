@@ -149,6 +149,8 @@ Thr routing system is built upon the following key concepts:
 
 ## Simple Demonstration
 
+Click the link and move to the directory: [my-project](/my-project/README.md)
+
 ## Reference
 
 [Angular Official Website](https://angular.dev/)
