@@ -210,7 +210,9 @@ Thr routing system is built upon the following key concepts:
 
 ### Demonstration
 
-Click the link and move to the directory: [my-project](/my-project/README.md) / [todo-list](/todo-list/README.md)
+Click the link and move to the directory: [my-project](/my-project/README.md)
+
+Another example: [todo-list](/todo-list/README.md)
 
 ## Reference
 
