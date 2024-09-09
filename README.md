@@ -14,8 +14,6 @@ This documentation provides a basic introduction to the Angular framework, cover
 
 [Routing](#routing)
 
-[Modular Development](#modular-development)
-
 [Simple Demonstration](#simple-demonstration)
 
 [Reference](#reference)
@@ -119,8 +117,6 @@ Thr routing system is built upon the following key concepts:
 + **RouterModule**: One of Angular's core modules, it enables routing functionality within an application. The root routes of the application are defined using the RouterModule.forRoot() method.
 + **RouterLink Directive**: This is used to create navigation links in the template. It binds to a specified route path, and when clicked, triggers navigation to the associated route.
 + **RouterOutlet**: This is a placeholder directive that defines where the view components will be loaded. Based on the active route, Angular displays the corresponding component in this location.
-
-## Modular Development
 
 ## Simple Demonstration
 
