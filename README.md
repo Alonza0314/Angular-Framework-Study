@@ -178,13 +178,19 @@ Thr routing system is built upon the following key concepts:
     ```
 
 5. Run
-   1. Access on the same host via: `localhost:4200`
+   1. If you have just clone this repo, you need to run this command to install dependencies before run `ng serve`
+
+        ```bash
+        npm install
+        ```
+
+   2. Access on the same host via: `localhost:4200`
 
         ```bash
         ng serve
         ```
 
-   2. Access on different host via: `x.x.x.x:4200`
+   3. Access on different host via: `x.x.x.x:4200`
 
         ```bash
         ng serve --host 0.0.0.0
