@@ -120,6 +120,12 @@ Thr routing system is built upon the following key concepts:
 
 ## Basic Usage
 
++ **Create a Project**:
+
+    ```bash
+    ng new my-project
+    ```
+
 + **Create a Component**:
 
     ```bash
