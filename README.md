@@ -107,6 +107,19 @@ my-angular-project/
 
 ## Routing
 
+### What is Angular Routing?
+
+Angular routing is a navigation mechanism that allows us to switch between different views or pages within the same [Single Page Application (SPA)](https://en.wikipedia.org/wiki/Single-page_application#:~:text=A%20single-page%20application%20%28SPA%29%20is%20a%20web%20application,the%20website%20feel%20more%20like%20a%20native%20app.). With the routing system, different components can be loaded based on the requested URL without reloading the entire page.
+
+### Basic Concepts
+
+Thr routing system is built upon the following key concepts:
+
++ **Routes Configuration**: This is an array that contains the routing rules for the application, used to define the mapping between URLs and their corresponding components.
++ **RouterModule**: One of Angular's core modules, it enables routing functionality within an application. The root routes of the application are defined using the RouterModule.forRoot() method.
++ **RouterLink Directive**: This is used to create navigation links in the template. It binds to a specified route path, and when clicked, triggers navigation to the associated route.
++ **RouterOutlet**: This is a placeholder directive that defines where the view components will be loaded. Based on the active route, Angular displays the corresponding component in this location.
+
 ## Modular Development
 
 ## Simple Demonstration
