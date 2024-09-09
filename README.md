@@ -161,6 +161,55 @@ Thr routing system is built upon the following key concepts:
 
 ## Simple Demonstration
 
+### Steps
+
+1. Create a new project:
+
+    ```bash
+    ng new my-project
+    cd my-project
+    ```
+
+2. Create a new component:
+    This command will create a component named "hello-angualr" under `src/app/` and refresh the module configuration.
+
+    ```bash
+    ng generate component hello-angular
+    ```
+
+3. Rewrite `src/app/hello-angular/hello-angular.component.html`
+
+    ```html
+    <h1>Hello Angular</h1>
+    ```
+
+4. Rewrite `src/app/app.component.html`
+
+    ```html
+    <app-hello-angular></app-hello-angular>
+    ```
+
+5. Run
+   1. If you have just clone this repo, you need to run this command to install dependencies before run `ng serve`
+
+        ```bash
+        npm install
+        ```
+
+   2. Access on the same host via: `localhost:4200`
+
+        ```bash
+        ng serve
+        ```
+
+   3. Access on different host via: `x.x.x.x:4200`
+
+        ```bash
+        ng serve --host 0.0.0.0
+        ```
+
+### Demonstration
+
 Click the link and move to the directory: [my-project](/my-project/README.md)
 
 ## Reference
