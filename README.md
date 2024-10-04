@@ -28,14 +28,14 @@ Angular is a popular web application framework developed by Google, known for bu
 |-|-|
 |Node.js|18|
 |npm|>=8.1|
-|ng|16|
+|ng|18|
 
 ### Install
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash
 sudo apt install -y nodejs
-npm install -g @angular/cli@16
+npm install -g @angular/cli@18
 ```
 
 ### Check
@@ -47,10 +47,29 @@ ng version
 Exprected to see ouput like this
 
 ```bash
-Angular CLI: 16.2.15
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 18.2.7
 Node: 18.20.4
 Package Manager: npm 10.7.0
 OS: linux x64
+
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1802.7 (cli-only)
+@angular-devkit/core         18.2.7 (cli-only)
+@angular-devkit/schematics   18.2.7 (cli-only)
+@schematics/angular          18.2.7 (cli-only)
 ```
 
 ## Angular Basics
